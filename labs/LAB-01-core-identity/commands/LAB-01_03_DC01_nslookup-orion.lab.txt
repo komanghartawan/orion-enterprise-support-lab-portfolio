@@ -1,0 +1,13 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Administrator> nslookup orion.lab 10.70.10.10
+Server:  ORION-L-DC01.orion.lab
+Address:  10.70.10.10
+
+Name:    orion.lab
+Address:  10.70.10.10
+
+PS C:\Users\Administrator>

@@ -1,0 +1,33 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Administrator> ipconfig /all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : ORION-L-DC01
+   Primary Dns Suffix  . . . . . . . : orion.lab
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : orion.lab
+
+Ethernet adapter Ethernet0:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Intel(R) 82574L Gigabit Network Connection
+   Physical Address. . . . . . . . . : 00-0C-29-72-6D-51
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::28c6:2639:9dd4:30ea%12(Preferred)
+   IPv4 Address. . . . . . . . . . . : 10.70.10.10(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 100666409
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-30-D6-69-F9-00-0C-29-72-6D-51
+   DNS Servers . . . . . . . . . . . : ::1
+                                       10.70.10.10
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+PS C:\Users\Administrator>

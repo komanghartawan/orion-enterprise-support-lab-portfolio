@@ -1,0 +1,20 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Administrator> net share
+
+Share name   Resource                        Remark
+
+-------------------------------------------------------------------------------
+C$           C:\                             Default share
+D$           D:\                             Default share
+IPC$                                         Remote IPC
+ADMIN$       C:\WINDOWS                      Remote Admin
+NETLOGON     C:\WINDOWS\SYSVOL\sysvol\orion.lab\SCRIPTS
+                                             Logon server share
+SYSVOL       C:\WINDOWS\SYSVOL\sysvol        Logon server share
+The command completed successfully.
+
+PS C:\Users\Administrator>
