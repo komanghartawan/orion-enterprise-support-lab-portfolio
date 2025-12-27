@@ -1,27 +1,70 @@
-# OS / Editor
+# =========================
+# OS junk
+# =========================
 .DS_Store
 Thumbs.db
-desktop.ini
+Desktop.ini
 
-# Temporary / cache
-*.tmp
-*.bak
+# =========================
+# IDE / editor folders
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Logs
+# =========================
 *.log
+vmware*.log
 
-# VMware and virtual disks (NEVER upload)
+# =========================
+# VMware Workstation artifacts (do not commit)
+# =========================
+*.lck
+**/*.lck/
+*.vmem
+*.vmss
+*.vswp
+*.vmtm
+*.vmtx
 *.vmx
 *.vmxf
+*.nvram
 *.vmsd
 *.vmsn
-*.nvram
+
+# Virtual machine disks and related large files
 *.vmdk
 *.vhd
 *.vhdx
+
+# OVA/OVF exports and ISOs
 *.ova
 *.ovf
-
-# ISO images
+*.mf
 *.iso
 
-# Windows dumps
-*.dmp
+# =========================
+# Secrets and certificates (never commit)
+# =========================
+.env
+.env.*
+secrets.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.cer
+*.crt
+*.p7b
+*.p7c
+*.p8
+*.jks
+*.keystore
+*.kdbx
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.bak
